@@ -11,6 +11,6 @@ import os
 
 from django.core.wsgi import get_wsgi_application
 
-os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'elite_tax_defense_23722.settings')
+os.environ.setdefault("DJANGO_SETTINGS_MODULE", "elite_tax_defense_23722.settings")
 
 application = get_wsgi_application()
